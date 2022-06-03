@@ -51,7 +51,7 @@ function Data(){
     }
   ]
 return (
-  <div>
+  <div className="App">
     {
     data.map((plans,index)=>(<Display key = {index} name ={plans.name} price ={plans.price} enjoyments = {plans.enjoyments} />
     ))};
@@ -65,7 +65,7 @@ function Display (props){
   return (
     <div className = "card">
     <div className = "plan-name">{props.name}</div>
-    <p>${props.price}/month</p>
+    <p>${props.price}<sub>/month</sub></p>
     <p className='features'>{props.enjoyments.map((e,index) => <li key={index} > {e}</li>)}</p>
     <button className="buy">Button</button>
 

@@ -1,14 +1,15 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  align-items: center;
 }
 
 body { 
- background-color: rgb(2, 2, 2);
+ background-color: whitesmoke;
 }
 
 .card {
-  background-color: white;
+  background-color: aqua;
  border-radius: 1.25rem;
   padding: 2rem;
   margin-bottom: 0.5rem;
@@ -23,6 +24,9 @@ body {
   transform: translateY(1rem);
 }
 
+sub{
+  font-size: 15px;
+}
 .features {
   text-align:left;
   border-top: 1px solid rgb(212, 209, 209);
